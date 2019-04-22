@@ -12,6 +12,7 @@ int coinExchange(int amt) {
     }
   }
 
+  printf("NUmber of coins needed = %d\n", j);
   for(int i = 0; i < j; i++) {
     printf("%d\t", list[i]);
   }
