@@ -2,10 +2,12 @@
 using namespace std;
 
 int * rounding(int n, int a[]){
-  int count = 0;
+  int count;
   int r = 0;
+  //cout<<n<<endl;
   for(int i = 0; i < n; i++) {
-    if(a[i] > 37) {
+    count = 0;
+    if(a[i] >= 38) {
       r = a[i];
       while((r % 5) != 0) {
         r +=1;
@@ -16,11 +18,6 @@ int * rounding(int n, int a[]){
       }
     }
   }
-  cout<<"\n";
-  for(int i = 0; i < n; i++) {
-  cout<<a[i]<<endl;
-  }
-  cout<<"\n";
   return a;
 }
 
