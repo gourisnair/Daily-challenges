@@ -7,7 +7,7 @@ int main() {
   int beg, end;
   int l = s.size();
 
-  for(int beg = 0; beg < l-1; beg++) {
+  for(int beg = 0; beg < l; beg++) {
     for(end = 1; end <= l-beg; end++) {
       cout << s.substr(beg, end)<< endl;
     }
