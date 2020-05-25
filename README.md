@@ -1,3 +1,3 @@
 # Daily-challenges
 
-Soulution to selected C++ problems.
+Solution to selected daily challenges.
